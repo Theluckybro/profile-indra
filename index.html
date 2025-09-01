@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 3px solid #2c3e50;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #333;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .form-container {
+            width: 60%;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container input,
+        .form-container textarea {
+            width: 95%;
+            padding: 8px;
+            margin: 5px 0 15px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+
+        .form-container button {
+            background: #2c3e50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background: #34495e;
+        }
+
+        .social {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .social a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+        .profile img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 3px solid #2c3e50;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Profil Saya</h1>
+
+    <div class="profile">
+        <img src="fotoprofil.jpg" alt="Foto Profil">
+        <p>Halo, saya Indra, seorang mahasiswa Teknik Informatika di Institut Teknologi Sepuluh Nopember. Saya senang
+            belajar hal baru, beradaptasi dengan lingkungan, dan terus berkembang untuk meraih cita-cita saya di bidang
+            teknologi.</p>
+    </div>
+
+    <h2>Hobi</h2>
+    <ul>
+        <li>Membaca</li>
+        <li>Bermain game</li>
+        <li>Menonton</li>
+    </ul>
+
+    <h2>Riwayat Pendidikan</h2>
+    <table>
+        <tr>
+            <th>Tingkat</th>
+            <th>Sekolah</th>
+        </tr>
+        <tr>
+            <td>SD</td>
+            <td>SD Tarakanita Gading Serpong</td>
+        </tr>
+        <tr>
+            <td>SMP</td>
+            <td>SMP Tarakanita Gading Serpong</td>
+        </tr>
+        <tr>
+            <td>SMA</td>
+            <td>SMA Kolese Kanisius</td>
+        </tr>
+        <tr>
+            <td>Perguruan Tinggi</td>
+            <td>Institut Teknologi Sepuluh Nopember</td>
+        </tr>
+    </table>
+
+    <h2>Kontak</h2>
+    <div class="form-container">
+        <form action="#" method="post">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" required></textarea><br>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+
+    <div class="social">
+        <p>Media Sosial:</p>
+        <a href="https://www.instagram.com/whydra_7" target="_blank">Instagram: @whydra_7</a> |
+        <a href="https://wa.me/6287777887231" target="_blank">WhatsApp: 087777887231</a>
+    </div>
+
+</body>
+
+</html>
